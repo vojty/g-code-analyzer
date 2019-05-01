@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@githubprimer/octicons-react": "^8.5.0",
     "@types/jest": "24.0.12",
     "@types/node": "11.13.8",
     "@types/react": "16.8.15",
     "@types/react-dom": "16.8.4",
+    "bootstrap": "^4.3.1",
+    "decimal.js": "^10.1.1",
+    "gcode-toolpath": "^2.2.0",
+    "paper": "^0.12.0",
     "react": "^16.8.6",
+    "react-dnd": "^7.4.5",
+    "react-dnd-html5-backend": "^7.4.4",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
     "react-scripts": "3.0.0",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "three.js": "^0.77.1",
     "typescript": "3.4.5"
   },
   "scripts": {
@@ -32,5 +43,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/paper": "^0.11.10",
+    "@types/react-redux": "^7.0.8",
+    "@types/reactstrap": "^8.0.1",
+    "@types/three": "^0.103.2",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.17.0"
   }
 }

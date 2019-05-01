@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Provider } from 'react-redux'
+import { Container, Row, Col } from 'reactstrap'
+import { DragDropContextProvider } from 'react-dnd'
+import HTML5Backend from 'react-dnd-html5-backend'
+
+import store from './store'
+
+import './App.scss'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+import FileUploader from './components/FileUploader'
+import FileContent from './components/FileContent'
+import Statistics from './components/Statistics'
+import { GithubRibbon } from './components/GithubRibbon'
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Provider store={store}>
+      <DragDropContextProvider backend={HTML5Backend}>
+        <div className="App">
+          <GithubRibbon />
+          <Container>
+            <Row>
+              <h1 className="display-1 mb-4">G code analyzer</h1>
+            </Row>
+            <Row>
+              <Col>
+                <FileUploader />
+                <FileContent />
+              </Col>
+              <Col>
+                <Statistics />
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </DragDropContextProvider>
+    </Provider>
+  )
 }
 
-export default App;
+export default App

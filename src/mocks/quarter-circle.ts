@@ -1,0 +1,10 @@
+export const gCode = `
+G21
+G00 X0 Y0 F70
+G01 Z-1 F50
+G01 X0 Y5 F50
+G02 X5 Y0 J-5
+G01 X0 Y0
+G00 Z0 F70
+M30
+`
