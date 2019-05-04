@@ -22,7 +22,7 @@ function formatDistance(distance: Decimal) {
 const infos: { [motion: string]: string } = {
   G0: 'Rapid positioning - move mode',
   G1: 'Linear interpolation - work mode',
-  G2: 'Circular interpolation, clockwis - work mode',
+  G2: 'Circular interpolation, clockwise - work mode',
   G3: 'Circular interpolation, counterclockwise - work mode'
 }
 
