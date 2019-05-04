@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/g-code-analyzer/static/css/main.1f0fb5cc.chunk.css",
+    "main.js": "/g-code-analyzer/static/js/main.dfd96906.chunk.js",
+    "main.js.map": "/g-code-analyzer/static/js/main.dfd96906.chunk.js.map",
+    "runtime~main.js": "/g-code-analyzer/static/js/runtime~main.5b08f84e.js",
+    "runtime~main.js.map": "/g-code-analyzer/static/js/runtime~main.5b08f84e.js.map",
+    "static/css/2.266e55a5.chunk.css": "/g-code-analyzer/static/css/2.266e55a5.chunk.css",
+    "static/js/2.80ae6917.chunk.js": "/g-code-analyzer/static/js/2.80ae6917.chunk.js",
+    "static/js/2.80ae6917.chunk.js.map": "/g-code-analyzer/static/js/2.80ae6917.chunk.js.map",
+    "index.html": "/g-code-analyzer/index.html",
+    "precache-manifest.c2449e8cdeda4f6f923620fd9332f4f0.js": "/g-code-analyzer/precache-manifest.c2449e8cdeda4f6f923620fd9332f4f0.js",
+    "service-worker.js": "/g-code-analyzer/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/g-code-analyzer/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.1f0fb5cc.chunk.css.map": "/g-code-analyzer/static/css/main.1f0fb5cc.chunk.css.map"
+  }
+}
