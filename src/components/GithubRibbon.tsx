@@ -9,7 +9,7 @@ const style: React.CSSProperties = {
 
 export function GithubRibbon() {
   return (
-    <a href="a">
+    <a href="https://github.com/vojty/g-code-analyzer">
       <img
         style={style}
         src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"
